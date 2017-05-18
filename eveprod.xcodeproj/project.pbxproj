@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D02D8CE1ECC218D00A90F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D8CD1ECC218D00A90F94 /* main.m */; };
+		6D02D8D11ECC218D00A90F94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D8D01ECC218D00A90F94 /* AppDelegate.m */; };
+		6D02D8D71ECC218D00A90F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D02D8D51ECC218D00A90F94 /* Main.storyboard */; };
+		6D02D8DA1ECC218D00A90F94 /* eveprod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D8D81ECC218D00A90F94 /* eveprod.xcdatamodeld */; };
+		6D02D8DC1ECC218D00A90F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D02D8DB1ECC218D00A90F94 /* Assets.xcassets */; };
+		6D02D8DF1ECC218D00A90F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D02D8DD1ECC218D00A90F94 /* LaunchScreen.storyboard */; };
+		6D02D8EA1ECC218D00A90F94 /* eveprodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D8E91ECC218D00A90F94 /* eveprodTests.m */; };
+		6D02D8F51ECC218D00A90F94 /* eveprodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D8F41ECC218D00A90F94 /* eveprodUITests.m */; };
+		6D02D9041ECC22CF00A90F94 /* EPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D9031ECC22CF00A90F94 /* EPMenuViewController.m */; };
+		6D02D9071ECC2AB800A90F94 /* EPPriceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D9061ECC2AB800A90F94 /* EPPriceListViewController.m */; };
+		6D02D90A1ECC2C4300A90F94 /* EPTechTwoProdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D9091ECC2C4300A90F94 /* EPTechTwoProdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D02D8E61ECC218D00A90F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D02D8C11ECC218D00A90F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D02D8C81ECC218D00A90F94;
+			remoteInfo = eveprod;
+		};
+		6D02D8F11ECC218D00A90F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D02D8C11ECC218D00A90F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D02D8C81ECC218D00A90F94;
+			remoteInfo = eveprod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D02D8C91ECC218D00A90F94 /* eveprod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eveprod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02D8CD1ECC218D00A90F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D02D8CF1ECC218D00A90F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D02D8D01ECC218D00A90F94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D02D8D61ECC218D00A90F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D02D8D91ECC218D00A90F94 /* eveprod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eveprod.xcdatamodel; sourceTree = "<group>"; };
+		6D02D8DB1ECC218D00A90F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D02D8DE1ECC218D00A90F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D02D8E01ECC218D00A90F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02D8E51ECC218D00A90F94 /* eveprodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eveprodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02D8E91ECC218D00A90F94 /* eveprodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eveprodTests.m; sourceTree = "<group>"; };
+		6D02D8EB1ECC218D00A90F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02D8F01ECC218D00A90F94 /* eveprodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eveprodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02D8F41ECC218D00A90F94 /* eveprodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eveprodUITests.m; sourceTree = "<group>"; };
+		6D02D8F61ECC218D00A90F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02D9021ECC22CF00A90F94 /* EPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMenuViewController.h; sourceTree = "<group>"; };
+		6D02D9031ECC22CF00A90F94 /* EPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMenuViewController.m; sourceTree = "<group>"; };
+		6D02D9051ECC2AB800A90F94 /* EPPriceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPriceListViewController.h; sourceTree = "<group>"; };
+		6D02D9061ECC2AB800A90F94 /* EPPriceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPriceListViewController.m; sourceTree = "<group>"; };
+		6D02D9081ECC2C4300A90F94 /* EPTechTwoProdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTechTwoProdViewController.h; sourceTree = "<group>"; };
+		6D02D9091ECC2C4300A90F94 /* EPTechTwoProdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTechTwoProdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D02D8C61ECC218D00A90F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8E21ECC218D00A90F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8ED1ECC218D00A90F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D02D8C01ECC218D00A90F94 = {
+			isa = PBXGroup;
+			children = (
+				6D02D8CB1ECC218D00A90F94 /* eveprod */,
+				6D02D8E81ECC218D00A90F94 /* eveprodTests */,
+				6D02D8F31ECC218D00A90F94 /* eveprodUITests */,
+				6D02D8CA1ECC218D00A90F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D02D8CA1ECC218D00A90F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D8C91ECC218D00A90F94 /* eveprod.app */,
+				6D02D8E51ECC218D00A90F94 /* eveprodTests.xctest */,
+				6D02D8F01ECC218D00A90F94 /* eveprodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D02D8CB1ECC218D00A90F94 /* eveprod */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D8CF1ECC218D00A90F94 /* AppDelegate.h */,
+				6D02D8D01ECC218D00A90F94 /* AppDelegate.m */,
+				6D02D9051ECC2AB800A90F94 /* EPPriceListViewController.h */,
+				6D02D9061ECC2AB800A90F94 /* EPPriceListViewController.m */,
+				6D02D9081ECC2C4300A90F94 /* EPTechTwoProdViewController.h */,
+				6D02D9091ECC2C4300A90F94 /* EPTechTwoProdViewController.m */,
+				6D02D9021ECC22CF00A90F94 /* EPMenuViewController.h */,
+				6D02D9031ECC22CF00A90F94 /* EPMenuViewController.m */,
+				6D02D8DB1ECC218D00A90F94 /* Assets.xcassets */,
+				6D02D8DD1ECC218D00A90F94 /* LaunchScreen.storyboard */,
+				6D02D8D51ECC218D00A90F94 /* Main.storyboard */,
+				6D02D8E01ECC218D00A90F94 /* Info.plist */,
+				6D02D8D81ECC218D00A90F94 /* eveprod.xcdatamodeld */,
+				6D02D8CC1ECC218D00A90F94 /* Supporting Files */,
+			);
+			path = eveprod;
+			sourceTree = "<group>";
+		};
+		6D02D8CC1ECC218D00A90F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D8CD1ECC218D00A90F94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D02D8E81ECC218D00A90F94 /* eveprodTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D8E91ECC218D00A90F94 /* eveprodTests.m */,
+				6D02D8EB1ECC218D00A90F94 /* Info.plist */,
+			);
+			path = eveprodTests;
+			sourceTree = "<group>";
+		};
+		6D02D8F31ECC218D00A90F94 /* eveprodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D02D8F41ECC218D00A90F94 /* eveprodUITests.m */,
+				6D02D8F61ECC218D00A90F94 /* Info.plist */,
+			);
+			path = eveprodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D02D8C81ECC218D00A90F94 /* eveprod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02D8F91ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprod" */;
+			buildPhases = (
+				6D02D8C51ECC218D00A90F94 /* Sources */,
+				6D02D8C61ECC218D00A90F94 /* Frameworks */,
+				6D02D8C71ECC218D00A90F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eveprod;
+			productName = eveprod;
+			productReference = 6D02D8C91ECC218D00A90F94 /* eveprod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D02D8E41ECC218D00A90F94 /* eveprodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02D8FC1ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprodTests" */;
+			buildPhases = (
+				6D02D8E11ECC218D00A90F94 /* Sources */,
+				6D02D8E21ECC218D00A90F94 /* Frameworks */,
+				6D02D8E31ECC218D00A90F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D02D8E71ECC218D00A90F94 /* PBXTargetDependency */,
+			);
+			name = eveprodTests;
+			productName = eveprodTests;
+			productReference = 6D02D8E51ECC218D00A90F94 /* eveprodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D02D8EF1ECC218D00A90F94 /* eveprodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02D8FF1ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprodUITests" */;
+			buildPhases = (
+				6D02D8EC1ECC218D00A90F94 /* Sources */,
+				6D02D8ED1ECC218D00A90F94 /* Frameworks */,
+				6D02D8EE1ECC218D00A90F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D02D8F21ECC218D00A90F94 /* PBXTargetDependency */,
+			);
+			name = eveprodUITests;
+			productName = eveprodUITests;
+			productReference = 6D02D8F01ECC218D00A90F94 /* eveprodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D02D8C11ECC218D00A90F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rotciv Rrama Industries";
+				TargetAttributes = {
+					6D02D8C81ECC218D00A90F94 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45PEPG6NFL;
+						ProvisioningStyle = Automatic;
+					};
+					6D02D8E41ECC218D00A90F94 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45PEPG6NFL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D02D8C81ECC218D00A90F94;
+					};
+					6D02D8EF1ECC218D00A90F94 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45PEPG6NFL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D02D8C81ECC218D00A90F94;
+					};
+				};
+			};
+			buildConfigurationList = 6D02D8C41ECC218D00A90F94 /* Build configuration list for PBXProject "eveprod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D02D8C01ECC218D00A90F94;
+			productRefGroup = 6D02D8CA1ECC218D00A90F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D02D8C81ECC218D00A90F94 /* eveprod */,
+				6D02D8E41ECC218D00A90F94 /* eveprodTests */,
+				6D02D8EF1ECC218D00A90F94 /* eveprodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D02D8C71ECC218D00A90F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02D8DF1ECC218D00A90F94 /* LaunchScreen.storyboard in Resources */,
+				6D02D8DC1ECC218D00A90F94 /* Assets.xcassets in Resources */,
+				6D02D8D71ECC218D00A90F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8E31ECC218D00A90F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8EE1ECC218D00A90F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D02D8C51ECC218D00A90F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02D9071ECC2AB800A90F94 /* EPPriceListViewController.m in Sources */,
+				6D02D9041ECC22CF00A90F94 /* EPMenuViewController.m in Sources */,
+				6D02D8DA1ECC218D00A90F94 /* eveprod.xcdatamodeld in Sources */,
+				6D02D90A1ECC2C4300A90F94 /* EPTechTwoProdViewController.m in Sources */,
+				6D02D8D11ECC218D00A90F94 /* AppDelegate.m in Sources */,
+				6D02D8CE1ECC218D00A90F94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8E11ECC218D00A90F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02D8EA1ECC218D00A90F94 /* eveprodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02D8EC1ECC218D00A90F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02D8F51ECC218D00A90F94 /* eveprodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D02D8E71ECC218D00A90F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D02D8C81ECC218D00A90F94 /* eveprod */;
+			targetProxy = 6D02D8E61ECC218D00A90F94 /* PBXContainerItemProxy */;
+		};
+		6D02D8F21ECC218D00A90F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D02D8C81ECC218D00A90F94 /* eveprod */;
+			targetProxy = 6D02D8F11ECC218D00A90F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D02D8D51ECC218D00A90F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D02D8D61ECC218D00A90F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D02D8DD1ECC218D00A90F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D02D8DE1ECC218D00A90F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D02D8F71ECC218D00A90F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D02D8F81ECC218D00A90F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D02D8FA1ECC218D00A90F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D02D8FB1ECC218D00A90F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D02D8FD1ECC218D00A90F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eveprod.app/eveprod";
+			};
+			name = Debug;
+		};
+		6D02D8FE1ECC218D00A90F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eveprod.app/eveprod";
+			};
+			name = Release;
+		};
+		6D02D9001ECC218D00A90F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eveprod;
+			};
+			name = Debug;
+		};
+		6D02D9011ECC218D00A90F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 45PEPG6NFL;
+				INFOPLIST_FILE = eveprodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rotciv-Rrama-Industries.eveprodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eveprod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D02D8C41ECC218D00A90F94 /* Build configuration list for PBXProject "eveprod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02D8F71ECC218D00A90F94 /* Debug */,
+				6D02D8F81ECC218D00A90F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D02D8F91ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02D8FA1ECC218D00A90F94 /* Debug */,
+				6D02D8FB1ECC218D00A90F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D02D8FC1ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02D8FD1ECC218D00A90F94 /* Debug */,
+				6D02D8FE1ECC218D00A90F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D02D8FF1ECC218D00A90F94 /* Build configuration list for PBXNativeTarget "eveprodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02D9001ECC218D00A90F94 /* Debug */,
+				6D02D9011ECC218D00A90F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D02D8D81ECC218D00A90F94 /* eveprod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D02D8D91ECC218D00A90F94 /* eveprod.xcdatamodel */,
+			);
+			currentVersion = 6D02D8D91ECC218D00A90F94 /* eveprod.xcdatamodel */;
+			path = eveprod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D02D8C11ECC218D00A90F94 /* Project object */;
+}
